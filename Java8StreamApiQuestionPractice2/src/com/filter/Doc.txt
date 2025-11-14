@@ -1,0 +1,19 @@
+			FlatMap()
+			=========
+
+flatMap() is an intermediate Stream operation used when:
+
+		-- Each element contains multiple values
+		-- You want to flatten nested collections
+		-- Output elements should be in one single stream
+Note --> It is used for one-to-many mapping.
+
+	When do we use flatMap()?
+	=========================
+	 ->Employee → multiple projects
+	 ->User → multiple addresses
+	 ->Order → multiple items
+	 ->Product → multiple categories
+	 ->JSON → nested arrays
+	 ->Reading file → each line split into words
+	 ->List<List<String>> to List<String>
